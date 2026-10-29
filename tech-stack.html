@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIH26264 Tech Stack</title>
+  <style>
+    :root { font-family: Georgia, 'Times New Roman', serif; color: #17253b; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 36px; background: #fff; }
+    main { max-width: 900px; margin: 0 auto; }
+    h1 { margin: 0 0 18px; text-align: center; font-size: clamp(30px, 5vw, 48px); }
+    table { width: 100%; border-collapse: separate; border-spacing: 10px; font-size: clamp(16px, 2.6vw, 27px); }
+    th, td { padding: 16px 18px; border-radius: 12px; text-align: left; }
+    th { width: 26%; text-align: center; background: #cddff1; color: #183650; }
+    td { background: #e6f0fa; color: #183650; }
+    tr:nth-child(3) th, tr:nth-child(3) td,
+    tr:nth-child(4) th, tr:nth-child(4) td { background: #eee2fb; color: #44276e; }
+    tr:nth-child(5) th, tr:nth-child(5) td { background: #f7e6bd; color: #5c4615; }
+    @media (max-width: 560px) {
+      body { padding: 18px 10px; }
+      table { border-spacing: 6px; }
+      th, td { padding: 12px 9px; }
+      th { width: 34%; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>TECH STACK</h1>
+    <table aria-label="SIH26264 project technology stack">
+      <tbody>
+        <tr><th scope="row">Frontend / UI</th><td>React · Vite · Tailwind CSS · JavaScript</td></tr>
+        <tr><th scope="row">Backend</th><td>Node.js · Express.js · REST API</td></tr>
+        <tr><th scope="row">Database</th><td>MySQL · mysql2</td></tr>
+        <tr><th scope="row">Security</th><td>JWT · bcrypt · Role-based access</td></tr>
+        <tr><th scope="row">Local AI</th><td>Ollama · Llama 3.2</td></tr>
+        <tr><th scope="row">Validation</th><td>Zod · React Hook Form</td></tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
